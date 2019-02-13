@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.0.2'
 # Use sqlite3 as the database for Active Record
+gem 'sqlite3'
 
   # Use SCSS for stylesheets      # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.4'
@@ -26,8 +27,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console       # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-  gem 'sqlite3'
-
+  
   # Access an IRB console on exception pages or by using <%= console %> in views        # Access an IRB console on exception pages or by using <%= console %> in views
  gem 'web-console', '~> 2.0'
 
