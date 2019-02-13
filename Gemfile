@@ -26,6 +26,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console       # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'sqlite3'
 
   # Access an IRB console on exception pages or by using <%= console %> in views        # Access an IRB console on exception pages or by using <%= console %> in views
  gem 'web-console', '~> 2.0'
