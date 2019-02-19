@@ -4,8 +4,8 @@ before_action :set_product, only: [:edit, :update, :destroy, :show]
 
   def index
 
-    @products = Product.all
-    render json: @products
+    products = Product.all
+    render json: products
     
   end
 
