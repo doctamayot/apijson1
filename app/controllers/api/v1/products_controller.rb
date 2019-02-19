@@ -1,5 +1,5 @@
 class Api::V1::ProductsController < ApplicationController
-protect_from_forgery with: :null_session
+
 before_action :set_product, only: [:edit, :update, :destroy, :show]
 
   def index
